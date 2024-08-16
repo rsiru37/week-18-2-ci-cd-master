@@ -10,6 +10,7 @@ export const GET = async () => {
         })
     }
     console.log("ENTERED in GET");
+    console.log("Entered again 2");
     return NextResponse.json({
         message: "You are not logged in"
     }, {
